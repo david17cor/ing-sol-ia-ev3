@@ -1,0 +1,6 @@
+groq
+pandas
+streamlit
+plotly
+psutil
+pytest

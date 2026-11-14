@@ -1,0 +1,10 @@
+﻿{"paso": "clasificador", "caso_id": "M-01", "ok": true, "tokens_in": 156, "tokens_out": 93, "salida_cruda": "{\"intencion\":\"pedido\",\"prioridad\":\"media\"}", "latencia_ms": 1228.7, "timestamp": "2026-11-12T21:23:14"}
+{"paso": "extractor", "caso_id": "M-01", "ok": true, "tokens_in": 122, "tokens_out": 112, "salida_cruda": "{\"numero_pedido\": \"PED-1001\"}", "latencia_ms": 590.5, "timestamp": "2026-11-12T21:23:14"}
+{"paso": "redactor", "caso_id": "M-01", "ok": true, "tokens_in": 156, "tokens_out": 137, "salida_cruda": "Hola, su pedido **PED-1001** (AudÃ­fonos Bluetooth) estÃ¡ **en trÃ¡nsito** y se estima que llegue el **12 de noviembre de 2026**. Â¡Gracias por su paciencia!", "latencia_ms": 1022.2, "timestamp": "2026-11-12T21:23:15"}
+{"paso": "caso", "caso_id": "M-01", "ok": true, "estado": "resuelto", "motivo": null, "timestamp": "2026-11-12T21:23:15"}
+{"paso": "clasificador", "caso_id": "M-02", "ok": true, "tokens_in": 156, "tokens_out": 104, "salida_cruda": "{\"intencion\":\"pedido\",\"prioridad\":\"media\"}", "latencia_ms": 600.7, "timestamp": "2026-11-12T21:23:16"}
+{"paso": "extractor", "caso_id": "M-02", "ok": true, "tokens_in": 122, "tokens_out": 118, "salida_cruda": "{\"numero_pedido\": \"PED-1002\"}", "latencia_ms": 596.3, "timestamp": "2026-11-12T21:23:16"}
+{"paso": "redactor", "caso_id": "M-02", "ok": true, "tokens_in": 158, "tokens_out": 141, "salida_cruda": "Â¡Hola! Tu pedido **PED-1002** (Teclado mecÃ¡nico) fue **entregado** el **5 de noviembre de 2026**. Â¿Hay algo mÃ¡s en lo que pueda ayudarte?", "latencia_ms": 945.5, "timestamp": "2026-11-12T21:23:17"}
+{"paso": "caso", "caso_id": "M-02", "ok": true, "estado": "resuelto", "motivo": null, "timestamp": "2026-11-12T21:23:17"}
+{"paso": "clasificador", "caso_id": "M-03", "ok": true, "tokens_in": 155, "tokens_out": 85, "salida_cruda": "{\"intencion\": \"envio\", \"prioridad\": \"media\"}", "latencia_ms": 643.3, "timestamp": "2026-11-12T21:23:18"}
+{"paso": "extractor", "caso_id": "M-03", "ok": true, "tokens_in": 121, "tokens_out": 73, "salida_cruda": "{\"numero_pedido\": \"PED-1003\"}", "latencia_ms": 787.5, "timestamp": "2026-11-12T21:23:19"}

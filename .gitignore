@@ -1,0 +1,9 @@
+@"
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/logs/
+data/results/
+"@ | Out-File -Encoding utf8 .gitignoredocs/pruebas/eventos.jsonl
+.env.example

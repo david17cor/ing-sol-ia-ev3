@@ -1,0 +1,20 @@
+{
+  "PED-1001": {"estado": "en tránsito", "fecha_estimada": "2026-11-12", "producto": "Audífonos Bluetooth", "cliente": "CLI-001"},
+  "PED-1002": {"estado": "entregado", "fecha_entrega": "2026-11-05", "producto": "Teclado mecánico", "cliente": "CLI-002"},
+  "PED-1003": {"estado": "preparando envío", "fecha_estimada": "2026-11-14", "producto": "Monitor 24\"", "cliente": "CLI-003"},
+  "PED-1016": {"estado": "en tránsito", "fecha_estimada": "2026-11-12", "producto": "Tablet 10 pulgadas", "cliente": "CLI-004"},
+  "PED-1017": {"estado": "entregado", "fecha_entrega": "2026-11-09", "producto": "Smartwatch deportivo", "cliente": "CLI-005"},
+  "PED-1018": {"estado": "preparando envío", "fecha_estimada": "2026-11-14", "producto": "Batería portátil 10000mAh", "cliente": "CLI-006"},
+  "PED-1019": {"estado": "en tránsito", "fecha_estimada": "2026-11-13", "producto": "Adaptador USB-C multipuerto", "cliente": "CLI-007"},
+  "PED-1020": {"estado": "entregado", "fecha_entrega": "2026-11-08", "producto": "Soporte para monitor dual", "cliente": "CLI-008"},
+  "PED-1021": {"estado": "preparando envío", "fecha_estimada": "2026-11-15", "producto": "Cargador inalámbrico rápido", "cliente": "CLI-009"},
+  "PED-1022": {"estado": "en tránsito", "fecha_estimada": "2026-11-11", "producto": "Unidad SSD 1TB", "cliente": "CLI-010"},
+  "PED-1023": {"estado": "entregado", "fecha_entrega": "2026-11-10", "producto": "Lámpara de escritorio LED", "cliente": "CLI-011"},
+  "PED-1024": {"estado": "preparando envío", "fecha_estimada": "2026-11-16", "producto": "Router Wi-Fi 6", "cliente": "CLI-012"},
+  "PED-1025": {"estado": "en tránsito", "fecha_estimada": "2026-11-12", "producto": "Webcam 4K", "cliente": "CLI-013"},
+  "PED-1026": {"estado": "entregado", "fecha_entrega": "2026-11-05", "producto": "Brazo articulado para micrófono", "cliente": "CLI-014"},
+  "PED-1027": {"estado": "preparando envío", "fecha_estimada": "2026-11-13", "producto": "Capturadora de video", "cliente": "CLI-015"},
+  "PED-1028": {"estado": "en tránsito", "fecha_estimada": "2026-11-14", "producto": "Gafas de realidad virtual", "cliente": "CLI-016"},
+  "PED-1029": {"estado": "entregado", "fecha_entrega": "2026-11-07", "producto": "Altavoces de escritorio 2.1", "cliente": "CLI-017"},
+  "PED-1030": {"estado": "preparando envío", "fecha_estimada": "2026-11-15", "producto": "Controlador MIDI USB", "cliente": "CLI-018"}
+}
