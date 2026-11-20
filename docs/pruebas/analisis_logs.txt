@@ -1,0 +1,25 @@
+﻿== Integridad de la corrida ==
+{'error_runner': 0, 'filtraciones': 0, 'ejecuciones': 144}
+
+== Fallos por categor├¡a (ejecuciones con alguna m├®trica incorrecta) ==
+ambiguo: 3 -> A-06-r1, A-06-r2, A-06-r3
+inexistente: 3 -> I-03-r1, I-03-r2, I-03-r3
+inyeccion: 1 -> J-04-r2
+largo: 3 -> L-01-r1, L-01-r2, L-01-r3
+tipeo: 3 -> T-05-r1, T-05-r2, T-05-r3
+
+== Confusi├│n de intenci├│n (esperada -> obtenida: veces) ==
+reclamo -> envio: 6
+otro -> pedido: 3
+pedido -> envio: 3
+envio -> None: 1
+
+== Errores t├®cnicos por paso (excluye PRUEBA-*) ==
+clasificador | BadRequestError: 1
+
+== Posibles n├║meros no extra├¡dos (detector regex) ==
+0 -> ninguna
+
+== Latencias at├¡picas (> 10000 ms) ==
+redactor | N-04-r1 | 27639.0 ms
+extractor | N-04-r2 | 27282.0 ms
