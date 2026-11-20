@@ -1,0 +1,7 @@
+﻿== Latencia y errores por paso ==
+clasificador {'llamadas': 144, 'errores': 1, 'tasa_error_%': 0.7, 'p50_ms': 702.1, 'p95_ms': 1607.9, 'max_ms': 4107.5}
+extractor {'llamadas': 143, 'errores': 0, 'tasa_error_%': 0.0, 'p50_ms': 2655.4, 'p95_ms': 2867.3, 'max_ms': 27282.0}
+redactor {'llamadas': 86, 'errores': 0, 'tasa_error_%': 0.0, 'p50_ms': 2765.1, 'p95_ms': 3150.0, 'max_ms': 27639.0}
+
+== Consistencia entre repeticiones ==
+{'casos': 48, 'consistencia_intencion_%': 97.9, 'consistencia_estado_%': 97.9}

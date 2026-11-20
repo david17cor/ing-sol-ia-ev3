@@ -7,12 +7,13 @@ from src.observability.privacy import enmascarar
 client = Groq()  # lee GROQ_API_KEY del entorno
 MODELO = "openai/gpt-oss-120b"  # verificar disponibilidad en console.groq.com
 
-def llamar(paso, caso_id, mensajes, temperatura=0):
+def llamar(paso, caso_id, mensajes, temperatura=0, json_mode=False):
     inicio = time.perf_counter()
     evento = {"paso": paso, "caso_id": caso_id}
+    kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
     try:
         resp = client.chat.completions.create(
-            model=MODELO, messages=mensajes, temperature=temperatura)
+            model=MODELO, messages=mensajes, temperature=temperatura, **kwargs)
         texto = resp.choices[0].message.content
         evento.update(ok=True, tokens_in=resp.usage.prompt_tokens,
                       tokens_out=resp.usage.completion_tokens,
