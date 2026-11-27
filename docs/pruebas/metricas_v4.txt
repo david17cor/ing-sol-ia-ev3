@@ -12,9 +12,8 @@ tokens_in_total: 94549
 tokens_out_total: 46605
 tokens_in_por_ejecucion: 661.2
 tokens_out_por_ejecucion: 325.9
-costo_total_usd: None
-costo_por_ejecucion_usd: None
-costo: no calculado (completar PRECIO_ENTRADA_USD_M y PRECIO_SALIDA_USD_M)
+costo_total_usd: 0.042145
+costo_por_ejecucion_usd: 0.00029472027972027976
 por paso:
   clasificador: {'tokens_in_prom': 401.4, 'tokens_out_prom': 134.8, 'llamadas': 143}
   extractor: {'tokens_in_prom': 157.4, 'tokens_out_prom': 90.7, 'llamadas': 143}

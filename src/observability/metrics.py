@@ -5,8 +5,8 @@ PASOS_LLM = {"clasificador", "extractor", "redactor"}
 
 # Precios por millón de tokens en USD. Completar con los precios vigentes del modelo
 # en la página de precios de Groq. Mientras sean None, el costo no se calcula.
-PRECIO_ENTRADA_USD_M = None
-PRECIO_SALIDA_USD_M = None
+PRECIO_ENTRADA_USD_M = 0.15
+PRECIO_SALIDA_USD_M = 0.60
 
 
 def cargar(ruta):
