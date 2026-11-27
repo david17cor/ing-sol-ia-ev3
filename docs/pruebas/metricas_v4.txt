@@ -5,3 +5,17 @@ redactor {'llamadas': 86, 'errores': 0, 'tasa_error_%': 0.0, 'p50_ms': 2765.1, '
 
 == Consistencia entre repeticiones ==
 {'casos': 48, 'consistencia_intencion_%': 97.9, 'consistencia_estado_%': 97.9}
+
+== Uso de recursos ==
+ejecuciones_con_llamadas: 143
+tokens_in_total: 94549
+tokens_out_total: 46605
+tokens_in_por_ejecucion: 661.2
+tokens_out_por_ejecucion: 325.9
+costo_total_usd: None
+costo_por_ejecucion_usd: None
+costo: no calculado (completar PRECIO_ENTRADA_USD_M y PRECIO_SALIDA_USD_M)
+por paso:
+  clasificador: {'tokens_in_prom': 401.4, 'tokens_out_prom': 134.8, 'llamadas': 143}
+  extractor: {'tokens_in_prom': 157.4, 'tokens_out_prom': 90.7, 'llamadas': 143}
+  redactor: {'tokens_in_prom': 170.3, 'tokens_out_prom': 166.9, 'llamadas': 86}
